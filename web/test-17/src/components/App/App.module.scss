@@ -1,0 +1,14 @@
+@import 'theme/colors';
+
+.page {
+  overflow: hidden;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  h1 {
+    margin: 20px 0;
+    padding: 10px 0;
+    border-bottom: 1px solid lighten($bluegray, 25);
+  }
+}

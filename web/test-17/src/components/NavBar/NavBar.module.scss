@@ -1,0 +1,27 @@
+@import 'theme/colors';
+
+.navBar {
+  overflow: hidden;
+  padding: 10px;
+  background: $dark;
+
+  .navLink {
+    font-size: 16px;
+    line-height: 1;
+    float: left;
+    margin: 0 5px;
+    padding: 10px 20px;
+    color: $lightblue;
+    border-radius: 30px;
+
+    &:hover {
+      color: lighten($lightblue, 15);
+    }
+
+    &.active {
+      font-weight: bold;
+      color: $dark;
+      background: $blue;
+    }
+  }
+}

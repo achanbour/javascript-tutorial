@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    text-align: center;
+}
+
+#red-square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#blue-square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+ul, p {
+    padding: 5px 0;
+}
+
+li {
+    list-style: none;
+}
+
+section, header {
+    overflow: hidden;
+    max-width: 999px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px dotted black;
+}
+
+article {
+    float: left;
+    box-sizing: border-box;
+    width: 33.33333%;
+    padding: 20px;
+    text-align: center;
+}

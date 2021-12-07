@@ -1,0 +1,36 @@
+@import 'theme/colors';
+
+.menu {
+  float: left;
+  margin-right: 20px;
+  border: 1px solid $bluegray;
+
+  .menuHead {
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid $bluegray;
+    background: lighten($bluegray, 25);
+  }
+
+  .menuLink {
+    display: block;
+    margin: 10px 20px;
+    color: $bluegray;
+
+    &:hover {
+      color: $dark;
+    }
+  }
+}
+
+.warningMsg {
+  padding: 10px;
+  border-bottom: 1px solid $red;
+  background: lighten($red, 35);
+
+  &:before {
+    font-family: 'FontAwesome', sans-serif;
+    margin-right: 10px;
+    content: '\f06a';
+  }
+}

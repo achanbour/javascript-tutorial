@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    text-align: center;
+}
+
+.title {
+    padding: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.text {
+    margin: 5px;
+    padding: 5px;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: white;
+}
+
+.btn:hover {
+    color: white;
+    background: black;
+}
+
+.info-box {
+    width: 960px;
+    margin: 20px auto;
+    padding: 10px 100px;
+    background-color: lightgray;
+}
+
+.video-box {
+    display: inline-block;
+    margin: 20px;
+    padding: 100px;
+    background: lightgray;
+}
+
+.hidden {
+    display: none;
+}
+
+.video-box video {
+    display: block;
+}
